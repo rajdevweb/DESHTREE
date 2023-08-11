@@ -4,6 +4,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background: var(--royalblue);
+
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -44,8 +46,9 @@ body{
     color: var(--textmatewhite);
     line-height: 1.4rem;
   }
-  a{
+  .href{
     text-decoration: none;
+    font-weight: 500;
   }
   ul{
     list-style: none;
@@ -79,7 +82,7 @@ body{
     margin-inline: auto;
     padding: var(--padding-inline-section);
     overflow: hidden;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
   }
   .hover-link{
     color:var(--textmatewhite);
@@ -118,21 +121,63 @@ body{
       -webkit-user-select: none;
       vertical-align: middle;
       white-space: nowrap;
-  }
-  .btn-main:focus{
       text-decoration: none;
   }
-  .main-btn:hover{
+  .primary-btn:focus{
       text-decoration: none;
   }
-  .main-btn:active{
+  .primary-btn:hover{
+      text-decoration: none;
+  }
+  .primary-btn:active{
   box-shadow: black 0 10px 10px inset;
   }
-  .main-btn:not([disabled]):active {
+  .primary-btn:not([disabled]):active {
   box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
-  transform: translate(2px, 10px);
+  transform: translate(1px, 1px);
 }
+/* secondry-btn */
 
+.secondary-btn{
+    
+  appearance:none;
+  background-color: rgb(0, 0, 0);
+  background-image: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0px 1px;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.secondary-btn:focus{
+  text-decoration: none;
+}
+.secondary-btn:hover{
+  text-decoration: none;
+}
+.secondary-btn:active{
+box-shadow: black 0 10px 10px inset;
+}
+.secondary-btn:not([disabled]):active {
+box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+transform: translate(1px, 1px);
+}
 /* top banner  */
 .top-banner{
   background-image: url(image/topbanner.png);
@@ -147,7 +192,46 @@ background-color:#ff0048;
 .main-top{
   color: white;
 }
+.main-logo{
+  width: 48px;
+  display: inline-block;
+  
+}
+/* navbar */
+.main-nav{
+  justify-content: space-between;
+  padding: 0;
+  
+}
+.nav-links ul{
+  gap: 70px;
 
+}
+.nav-links a{
+  appearance: none;
+  padding: 10px 10px;
+  color: var(--textmatewhite);
+  
+}
+
+
+.nav-toggle{
+  display: none;
+}
+
+/* dropdown */
+.courses{
+  position: relative;
+}
+.dropdown{
+  background-color: #0092ff;
+  padding: 1em 0;
+  position: absolute;
+  display: none;
+  border-radius:8px;
+  top: 35px;
+}
+/* navbar end*/
 
 
   
