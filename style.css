@@ -233,5 +233,35 @@ background-color:#ff0048;
 }
 /* navbar end*/
 
+/* header start */
+.big-img{
+  padding: 3px var(--padding-inline-section) 0;
+  background-image: url(image/banner\ img.svg);
+  background-repeat: no-repeat;
+  background-clip: content-box;
+  min-width: none;
+  background-size:  contain;
+  height: 716px; 
+  justify-content: center;
+  align-items: center;
+
+}
+.header-list{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 404px;
+  left: 1070px;
+  
+  column-gap: 10px;
+  border: 1px solid white;
+  background-color: transparent;
+
+  
+}
+.pri-btn,.secon-btn{
+padding: 5px 24px ;
+}
+/* header end */
 
   
