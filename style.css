@@ -244,6 +244,7 @@ background-color:#ff0048;
   height: 716px; 
   justify-content: center;
   align-items: center;
+  
 
 }
 .header-list{
@@ -262,6 +263,33 @@ background-color:#ff0048;
 .pri-btn,.secon-btn{
 padding: 5px 24px ;
 }
-/* header end */
+
+.LeftSideButton{
+  justify-content: end;
+  flex-direction: row;
+  
+  position: relative;
+  position: relative;
+  top: 358px;
+  right: 100px;
+  background-color: transparent;
+  gap: 17px;
+
+}
+.LeftSideButton #first-btn ,#secon-btn{
+  padding: 5px 5px;
+}
+.main-list{
+  justify-content: space-evenly;
+  color: white;
+
+}
+.break{
+  display: block;
+} 
+.incre{
+  gap: 10px;
+  color: white;
+}
 
   
