@@ -236,7 +236,7 @@ background-color:#ff0048;
 /* header start */
 .big-img{
   padding: 3px var(--padding-inline-section) 0;
-  background-image: url(image/banner\ img.svg);
+  background-image: url(image/main-banner.png);
   background-repeat: no-repeat;
   background-clip: content-box;
   min-width: none;
@@ -291,5 +291,32 @@ padding: 5px 24px ;
   gap: 10px;
   color: white;
 }
+/* increment-section */
+.increment-section{
+  margin-block: 20px;
 
   
+}
+.main-list{
+padding: 24px 10px;
+/* border: 1px solid white; */
+ /* border-top: 2px solid white;
+ border-bottom: 2px solid white; */
+   /* box-shadow: 5px 10px 8px 10px #000000; */
+ border-radius: 2px ;
+ box-shadow: 0px 10px 0px #000000, 0px -10px 5px #000000;
+  
+}
+.discover-container{
+  background-image: url(image/frame.png);
+  height: 1000px;
+  border: 1px solid white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.discover-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
