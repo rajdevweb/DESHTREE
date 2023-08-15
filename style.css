@@ -309,14 +309,24 @@ padding: 24px 10px;
 }
 .discover-container{
   background-image: url(image/frame.png);
-  height: 1000px;
+  height: 100rem;
   border: 1px solid white;
   background-repeat: no-repeat;
   background-size: 100%;
+  align-items: center;
+  flex-direction: column;
+
 }
+
 .discover-list{
-  display: flex;
+text-align: center;
+background-color: transparent;
   justify-content: space-between;
   align-items: center;
   color: white;
+
+
+  
+
+
 }
