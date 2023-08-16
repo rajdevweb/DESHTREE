@@ -82,7 +82,7 @@ body{
     margin-inline: auto;
     padding: var(--padding-inline-section);
     overflow: hidden;
-    border: 1px solid rgb(255, 255, 255);
+    /* border: 1px solid rgb(255, 255, 255); */
   }
   .hover-link{
     color:var(--textmatewhite);
@@ -298,35 +298,10 @@ padding: 5px 24px ;
   
 }
 .main-list{
-padding: 24px 10px;
-/* border: 1px solid white; */
- /* border-top: 2px solid white;
- border-bottom: 2px solid white; */
-   /* box-shadow: 5px 10px 8px 10px #000000; */
+ padding: 24px 10px;
  border-radius: 2px ;
  box-shadow: 0px 10px 0px #000000, 0px -10px 5px #000000;
   
 }
-.discover-container{
-  background-image: url(image/frame.png);
-  height: 100rem;
-  border: 1px solid white;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  align-items: center;
-  flex-direction: column;
-
-}
-
-.discover-list{
-text-align: center;
-background-color: transparent;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
 
 
-  
-
-
-}
