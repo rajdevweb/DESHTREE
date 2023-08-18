@@ -4,11 +4,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background: var(--royalblue);
+    /* background: var(--royalblue); */
 
 }
 body{
     font-family: 'Poppins', sans-serif;
+    ::selection{
+      background-color: var(--textblackgray) ;
+      color: var(--whitetext);
+      margin: 0;
+      padding: 0;
+    }
 }
 
 :root{
@@ -33,7 +39,7 @@ body{
     --text-second-primary:#0092ff;
     --premiere-pink:#ec186f;
     --whitetext:#ffff; 
-    --textblackgray:hsl(0, 0%, 7%); 
+    --textblackgray:#121212; 
     --textmatewhite:#E5E7E9;
     --textwhiteberry:#b9cde4;
 
@@ -73,7 +79,7 @@ body{
     font-size: 1rem;
   }
   .banner-text{
-    color: var(--mateblack);
+    color: var(--textmatewhite);
     padding: 5px 30px;
     text-align: center;
   }
@@ -179,157 +185,13 @@ box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
 transform: translate(1px, 1px);
 }
 /* top banner  */
-.top-banner{
-  background-image: url(image/topbanner.png);
-  background-size: 100px;
+.topBanner{
+  background-image: url(image/banner.jpg);
+  background-size: cover;
   background-origin: padding-box;
   background-position: center top;
   background-position-x: center;
   background-repeat: repeat;
-background-blend-mode: lighten;
-background-color:#ff0048;
+  background-blend-mode: lighten;
+  background-color:#2a2a2aa0;
 }
-.main-top{
-  color: white;
-}
-.main-logo{
-  width: 48px;
-  display: inline-block;
-  
-}
-/* navbar */
-.main-nav{
-  justify-content: space-between;
-  padding: 0;
-  
-}
-.nav-links ul{
-  gap: 70px;
-
-}
-.nav-links a{
-  appearance: none;
-  padding: 10px 10px;
-  color: var(--textmatewhite);
-  
-}
-
-
-.nav-toggle{
-  display: none;
-}
-
-/* dropdown */
-.courses{
-  position: relative;
-}
-.dropdown{
-  background-color: #0092ff;
-  padding: 1em 0;
-  position: absolute;
-  display: none;
-  border-radius:8px;
-  top: 35px;
-}
-/* navbar end*/
-
-/* header start */
-.big-img{
-  padding: 3px var(--padding-inline-section) 0;
-  background-image: url(image/main-banner.png);
-  background-repeat: no-repeat;
-  background-clip: content-box;
-  min-width: none;
-  background-size:  contain;
-  height: 716px; 
-  justify-content: center;
-  align-items: center;
-  
-
-}
-.header-list{
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  top: 404px;
-  left: 1070px;
-  
-  column-gap: 10px;
-  border: 1px solid white;
-  background-color: transparent;
-
-  
-}
-.pri-btn,.secon-btn{
-padding: 5px 24px ;
-}
-
-.LeftSideButton{
-  justify-content: end;
-  flex-direction: row;
-  
-  position: relative;
-  position: relative;
-  top: 358px;
-  right: 100px;
-  background-color: transparent;
-  gap: 17px;
-
-}
-.LeftSideButton #first-btn ,#secon-btn{
-  padding: 5px 5px;
-}
-.main-list{
-  justify-content: space-evenly;
-  color: white;
-
-}
-.break{
-  display: block;
-} 
-.incre{
-  gap: 10px;
-  color: white;
-}
-/* increment-section */
-.increment-section{
-  margin-block: 20px;
-
-  
-}
-.main-list{
- padding: 24px 10px;
- border-radius: 2px ;
- box-shadow: 0px 10px 0px #000000, 0px -10px 5px #000000;
-
-}
-
-/* Discover section */
-
-.discover-container{
-  justify-content: center;
-}
-.img-container{
-position: relative;
-  height: 550px;
-  background-image: url(image/frame.png);
-  background-size: 100%;
-  width:100%;
-  background-repeat: no-repeat;
-  background-position: ce;
-
-}
-
-.img-text{
-  position: absolute;
-  top: 20px;
-bottom: 20px;
-right: 20px;
-left: 20px;
-display: inline;
-border: 1px solid rgb(255, 255, 255);
-background-color: transparent;
-}
-
-
-
