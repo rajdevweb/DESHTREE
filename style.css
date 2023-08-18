@@ -44,7 +44,8 @@ body{
     --textwhiteberry:#b9cde4;
 
     /* padding 20px */
-    --padding-inline-section:20px
+    --padding-inline-section:20px;
+    --border:border: 1px solid rgb(0, 0, 0);
   }
   /* predifend Element utility  */
   p{
@@ -55,6 +56,9 @@ body{
   .href{
     text-decoration: none;
     font-weight: 500;
+  }
+  li a{
+    text-decoration: none;
   }
   ul{
     list-style: none;
@@ -88,16 +92,17 @@ body{
     margin-inline: auto;
     padding: var(--padding-inline-section);
     overflow: hidden;
-    /* border: 1px solid rgb(255, 255, 255); */
+    border: 1px solid rgb(0, 0, 0);
   }
   .hover-link{
-    color:var(--textmatewhite);
+    color: black;
     text-decoration: none;
     font-weight: 500;
     transition: 0.2s ease-in;
   }
-  .hover-link{
+  .hover-link:hover{
   color:var(--whitetext);
+
   }
   .text-color{
     color: var(--textwhiteberry);
@@ -117,9 +122,9 @@ body{
       font-family: Arial, Helvetica, sans-serif;
       font-weight: 500;
       line-height: 20px;
-      margin: 0 5px 10px 0;
+      margin: -10px 6px -4px -125px;
       overflow: visible;
-      padding: 12px 40px;
+      padding: 10px 8px;
       text-align: center;
       text-transform: none;
       touch-action: manipulation;
@@ -194,4 +199,26 @@ transform: translate(1px, 1px);
   background-repeat: repeat;
   background-blend-mode: lighten;
   background-color:#2a2a2aa0;
+}
+/* navBar */
+.nav{
+  justify-content: space-between;
+align-items: center;
+}
+.mainIcon{
+  width: 10vw;
+}
+.navMenu{
+  justify-content: center;
+  gap: 30px;
+ 
+
+}
+.navLink{
+  gap: 98px;
+ 
+  
+}
+.navButton{
+  justify-content: end;
 }
