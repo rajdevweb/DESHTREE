@@ -50,7 +50,7 @@ body{
   /* predifend Element utility  */
   p{
     font-family: 'Poppins',sans-serif;
-    color: var(--textmatewhite);
+    color: var(--textblackgray);
     line-height: 1.4rem;
   }
   .href{
@@ -88,10 +88,10 @@ body{
     text-align: center;
   }
   .container{
-    max-width: 1500px;
+    max-width:  1500px;
     margin-inline: auto;
     padding: var(--padding-inline-section);
-    overflow: hidden;
+    /* overflow: hidden; */
     border: 1px solid rgb(0, 0, 0);
   }
   .hover-link{
@@ -189,6 +189,18 @@ box-shadow: black 0 10px 10px inset;
 box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
 transform: translate(1px, 1px);
 }
+.mainBtn{
+  border: 1px solid black;
+  appearance: none;
+  padding: 9px 28px;
+  text-decoration: none;
+  background-color: var(--textblackgray);
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  border-radius: 10px 0px;
+  color: white;
+}
+
 /* top banner  */
 .topBanner{
   background-image: url(image/banner.jpg);
@@ -216,9 +228,38 @@ align-items: center;
 }
 .navLink{
   gap: 98px;
+  margin-bottom: 0;
  
   
 }
 .navButton{
   justify-content: end;
+}
+
+.heroSection{
+display: flex;
+padding: 23px 0px 31px 0px;
+padding: var(--padding-inline-section);
+align-items: center;
+
+}
+
+.heroLeft{
+  text-align: justify;
+  line-height: 10px;
+  max-width: 35vw;
+  height: 250px;
+  gap: 10x 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.mainHeading{
+  font-size: 3rem;
+}
+.heroImg{
+  min-width: 100%;
+  height: auto;
+}
+.heroPara{
+  margin-top: 3px;
 }
